@@ -201,8 +201,9 @@ img {
 
 .logo-truong {         
     margin: 10px;
+    align-items: flex-end;
 }
 
-.logo-truong img {
+.logo-truong  {
     height: 70px;
 }
