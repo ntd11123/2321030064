@@ -193,15 +193,13 @@ img {
 .trang-chu a {
     display: block;        
     padding: 8px 0;        
-    color: black;          
+    color: black;
+    border-bottom: 2px solid #2fa4e7;          
     text-decoration: none; 
     font-weight: bold;
 }
 
-.logo-truong {
-    position: fixed;    
-    bottom: 0;          
-    left: 0;         
+.logo-truong {         
     margin: 10px;
 }
 
