@@ -194,7 +194,7 @@ img {
     display: block;        
     padding: 8px 0;        
     color: black;
-    border-bottom: 2px solid #2fa4e7;          
+    border-bottom: 1px solid #2fa4e7;          
     text-decoration: none; 
     font-weight: bold;
 }
@@ -205,5 +205,5 @@ img {
 }
 
 .logo-truong  {
-    height: 70px;
+    height: 40px;
 }
