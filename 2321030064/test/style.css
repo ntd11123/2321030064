@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  display: flex;
+}
+
+.tieu-de {
+  width: 200px;
+  background: #2fa4e7;
+  color: white;
+  padding: 15px;
+  height: 100vh;
+}
+.tieu-de h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.tieu-de ul {
+  list-style: none;
+  padding: 0;
+}
+.tieu-de ul li {
+  margin: 8px 0;
+}
+.tieu-de ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Timetable */
+.tkb {
+  flex: 1;
+  padding: 20px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+}
+th, td {
+  border: 1px solid #ccc;
+  padding: 6px;
+  vertical-align: top;
+  min-width: 120px;
+}
+th {
+  background:#2fa4e7;
+  color: white;
+}
+.class-box {
+  background: #2fa4e7;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 13px;
+  line-height: 1.4;
+}
