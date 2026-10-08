@@ -151,7 +151,7 @@
         document.writeln("<br>");
         document.writeln(mang.pop());
 
-        // push lấy ra số cuối cung của mảng 
+        // push lấy ra số cuối cùng của mảng 
         document.writeln("<br>");
         mangSo.push(6);
         document.writeln(mangSo);
@@ -215,6 +215,74 @@
         }
         else if (diem <= 8 && diem <= 10){
             document.writeln("Điểm A");
+        }
+
+        // object: var name ={}
+        var  thongTinSinhVien ={
+            hoTen : "Nguyễn Thái Dương",
+            tuoi : 21,
+            gioiTinh: true ,// true = nam / false = nữ
+            diaChi : {
+                thanhPho : "Ha Noi ",
+                phuong : "Dong ngac",
+                duong : "Le Van Hien",
+            }
+        };
+        var  phim ={
+            tenPhim : "Mưa đỏ ",
+            nam : 2025,
+            thoiLuong : 124,
+            daoDien : "ĐẶng Thái Huyền",
+            dienVien : {
+                dienVienChinh:[
+                    "đỗ nhật hoàng","lê hạ anh","steve nguyễn"
+                ],  
+                dienVienPhu: [
+                    "đỗ nhật hoàng","lê hạ anh","steve nguyễn"
+                ]     
+            },
+        };
+
+        document.writeln("<br>");
+        document.writeln(phim.dienVien.dienVienChinh[2]);
+
+        //switch
+        var d = new Date();
+        var theDay = d.getDay();
+        switch (theDay) {
+            case 5 :
+                document.writeln("Finally Friday");
+                break;
+            case 6 :
+                document.writeln("Super Saturday");
+                break;
+            case 0 :
+                document.writeln("Sleepy sunday");
+                break;
+            default:
+                document.writeln("I'm looking forward to this weekend");
+        }
+
+        for (var index = 1 ; index <= 1000 ; index ++){
+            document.writeln("<br> Xin chào!", + index);
+        }
+
+        var danhSachSinhVien = ["thuy","mai","tuan","thang","bach"] ;
+        document.writeln("<br> Xin Chào" + danhSachSinhVien[0]) ;
+        for( var i = 0 ; i < danhSachSinhVien.length;i ++){
+            document.writeln("<br>" + i + "<br>");
+            document.writeln("xin chao" + danhSachSinhVien[i]);
+        }
+
+
+        var danhSachSinhVien = ["thuy","mai","tuan","thang","bach"] ;
+        for( var i = 0 ; i < danhSachSinhVien.length;i ++){
+            if(danhSachSinhVien[i] == "thuy"){
+                document.writeln("Xin chào " + danhSachSinhVien[i] + "<br>");
+            }
+            else if(danhSachSinhVien [i] =="tuan"){
+                document.writeln("Xin chào " + danhSachSinhVien[i] + "<br>");
+            }
         }
 
         
