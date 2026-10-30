@@ -16,7 +16,7 @@
 <body>
     <div class="khoi">
         <h1>chế độ sáng</h1>
-        <img src="./bai9 -javascript/mattroi.png" alt "">
+        <img src="./bai9 -javascript/mattroi.jpg" alt "">
         <div>
             <button onclick="doiCheDo()">Đổi chế độ </button>
         </div>
@@ -24,18 +24,19 @@
     <script>
         //true:sáng/false: tối
         var cheDoHienTai = true;
-        function doiCheDO(){
+        function doiCheDo(){
             if (cheDoHienTai == true){
-                document.getElementsByTagName("body")[0].style = "backgroud-color:black";
+                document.getElementsByTagName("body")[0].style = "background-color:black";
                 document.getElementsByTagName("h1")[0].innerHTML = "Chế Độ Tối";
                 document.getElementsByTagName("h1")[0].style = "color: white";
-                document.getElementsByTagName("img")[0].src = "./bai9 -javascript/mattrang.png";
+                document.getElementsByTagName("img")[0].src = "./bai9 -javascript/mattrang.jpg";
                 cheDoHienTai = false;
             }
-            else{document.getElementsByTagName("body")[0].style = "backgroud-color:white";
+            else{
+                document.getElementsByTagName("body")[0].style = "background-color:white";
                 document.getElementsByTagName("h1")[0].innerHTML = "Chế Độ Sáng";
-                document.getElementsByTagName("h1")[0].style = "color: white";
-                document.getElementsByTagName("img")[0].src = "./bai9 -javascript/mattroi.png";
+                document.getElementsByTagName("h1")[0].style = "color: black";
+                document.getElementsByTagName("img")[0].src = "./bai9 -javascript/mattroi.jpg";
                 cheDoHienTai = true;
 
             }
