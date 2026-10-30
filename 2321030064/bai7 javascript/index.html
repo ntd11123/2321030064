@@ -263,7 +263,7 @@
                 document.writeln("I'm looking forward to this weekend");
         }
 
-        for (var index = 1 ; index <= 1000 ; index ++){
+        for (var index = 1 ; index <= 10 ; index ++){
             document.writeln("<br> Xin chào!", + index);
         }
 
@@ -284,6 +284,23 @@
                 document.writeln("Xin chào " + danhSachSinhVien[i] + "<br>");
             }
         }
+
+        //popup boxes
+        alert("xin chào !");
+
+        //comfirm
+        var r = confirm("press a button")
+        if (r == true) {
+            document.write("you pressed OK!")
+        }
+        else {
+            document.write("you preses cancel!")
+        }
+
+        // prompt
+        r = prompt("Nhập vào họ tên ","nhập tên vào đây!");
+        document.write(r)
+
 
         
     </script>
