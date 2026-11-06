@@ -80,6 +80,7 @@ header{
 .phim{
     width:19%;
     height: 20vh;
+    object-fit:cover;
 
 }
 

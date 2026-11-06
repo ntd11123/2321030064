@@ -29,7 +29,7 @@ var danhSachPhim = [
     
 function chonPhim(id){
         for (let i= 0; i < danhSachPhim.length; i++){
-            if(danhSachPhim[i].id ==id){
+            if(danhSach[i].id ==id){
                 document.getElementsByClassName("video")[0].src =danhSachPhim[i].duongDanYoutube
             }
         }
